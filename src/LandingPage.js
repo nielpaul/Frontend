@@ -46,8 +46,8 @@ return (
       <div className="d-flex flex-column align-items-center w-lg-50 h-100 px-3 px-lg-5 pt-5">
          <div className="w-100 mt-auto" style={{maxWidth: "526px"}}>
          <img className="pt-3" draggable="false" src="assets/img/white.png"/>
-         <h4 className="display-4 text-center text-lg-start pt-5 pb-sm-2 pb-md-3">Invest in creators, invest in yourself.</h4>
-         <h5 className="fs-lg text-center text-lg-start  mx-auto mx-lg-0 mb-5">Be a part of what you love. We enable podcasters and their fans to thrive together. Join the Lollywest community to listen, discuss, and trade features of your favorite podcasts.</h5>
+         <h5 className="display-6 text-center text-lg-start pt-new pb-sm-2 pb-md-3">Where podcasters and fans thrive together.</h5>
+         <h5 className="fs-lg text-center text-lg-start  mx-auto mx-lg-0 mb-5">Buy, trade, and stream your favorite podcasts.</h5>
          <form className="needs-validation" onSubmit={joinWaitlist} novalidate>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-1 row-cols-lg-2">
                <div className="col mb-3">
@@ -79,6 +79,9 @@ return (
    </div>
    <div className="w-50 bg-size-cover bg-repeat-0 bg-position-center" style={{ backgroundImage: "url('assets/img/podcast3.svg')" }}></div>
    </div>
+   <section class="bg-black pt-new pb-4 text-center">
+                  <h3 class="pb-4 text-white">Coming to the App Store June 1st, 2024</h3>
+               </section>
 </main>
 </>
 );
